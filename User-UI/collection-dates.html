@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <style>
+            html{
+                scroll-behavior: smooth;
+                background-color: rgb(211, 224, 229);
+            }
+            .intro{font-weight:bold ;
+            font-size: 20px;
+            font-family: "Poppins", sans-serif;
+            color: rgb(58, 58, 214);}
+            a{
+            text-decoration: none;}
+            .logout{
+                position:absolute;
+                right: 5px;
+                top: 5px;
+                font-size: 20px;
+                font-family: "Poppins", sans-serif;
+                background-color: transparent;
+                color: rgb(58, 58, 214);
+                border: 0px;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+            .logout:hover{
+                color: white;
+                background-color: rgb(58, 58, 214);
+                cursor: pointer;
+                border: 0px;
+            }
+            .calendar-title{
+                margin-left: 5px;
+                font-family: "Poppins", sans-serif;
+            }
+            .Calendar{
+                width: 600px;
+                height: 300px;
+                background: white;
+                position: absolute;
+                top: 130px;
+                left: 10px;
+                border-radius: 10px;
+                padding: 25px;
+                border-color: black;
+                border-style: solid;
+                border-width: 2px;
+                font-family: "Poppins", sans-serif;
+            }
+            .calendar-table{
+                position:relative;
+                margin-left: 10px;
+            }
+            .calendar-month{
+                position:relative;
+                margin-left: 10px;
+            }
+            .collection-dates{
+                margin-left: 700px;
+                font-family: "Poppins", sans-serif;
+                font-size: 20px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <header class="intro">THE FOOD DONATION NETWORK</header><hr>
+        <a href="food-security.html"><button class="logout">Logout</button></a>
+        <h2 class="calendar-title">Calendar</h2>
+        <div class="Calendar">
+        <h3 class="calendar-month"> &lt; September > </h3><hr>
+        <table class="calendar-table">
+            <thread>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tues</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thread>
+                <tr>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                        </tr>
+                        <tr>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                        </tr>
+                        <tr>
+                            <td>29</td>
+                            <td>30</td>
+                        </tr>
+                    </tbody>
+                </tr>
+        </table>
+        </div>
+        <p class="collection-dates"><u>
+            Collection Dates<br> </u>
+            &#8226; 7 September, Saturday <br>
+            &#8226; 12 September, Thursday <br>
+            &#8226; 19 September, Thursday<br>
+            &#8226; 28 September, Saturday<br>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <style>
+            html{
+                scroll-behavior: smooth;
+                background-color: rgb(211, 224, 229);
+            }
+            .intro{
+                font-weight:bold ;
+                font-size: 20px;
+                font-family: "Poppins", sans-serif;
+                color: rgb(58, 58, 214);
+            }
+            .service_page_direct{
+                position:absolute;
+                right: 5px;
+                top: 5px;
+                font-size: 20px;
+                font-family: "Poppins", sans-serif;
+                background-color: transparent;
+                color: rgb(58, 58, 214);
+                border: 0px;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+            .service_page_direct:hover{
+                color: white;
+                background-color: rgb(58, 58, 214);
+                cursor: pointer;
+                border: 0px;
+            }
+            .charities_page_direct{
+                position:absolute;
+                right: 210px;
+                top: 5px;
+                font-size: 20px;
+                font-family: "Poppins", sans-serif;
+                background-color: transparent;
+                color: rgb(58, 58, 214);
+                border: 0px;
+                border-radius: 5px;
+                font-weight: bold;
+            
+            }
+            .charities_page_direct:hover{
+                color: white;
+                background-color: rgb(58, 58, 214);
+                cursor: pointer;
+                border: 0px;
+            }
+            .Body-Para-1{
+                font-family: "Poppins", sans-serif;
+                color: black;
+                font-weight: normal;
+                font-size: 16px;}
+            .map{
+                margin-top: 20px;
+            }    
+            .Body-Para-title{
+                font-weight:bold ;
+                font-size: 30px;
+                font-family: "Poppins", sans-serif;
+                color: rgb(0, 0, 0,0.8);
+                margin-top: 80px;
+                margin-left: 10px;
+            }
+            .login{
+                width: 250px;
+                height: 400px;
+                background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%,rgba(0,0,0,0.8)50%);
+                position: absolute;
+                top: 80px;
+                left: 970px;
+                border-radius: 10px;
+                padding: 25px;
+            }
+            .submit{
+                margin-top:10px ;
+                background-color: white;
+                color: black;
+                font-family:"Poppins", sans-serif ;
+                border-width: 1px ;
+                border-radius: 7px;
+                width: 200px;
+                height: 30px;
+                margin-left: 30px;
+            }
+            .submit:active{
+                opacity: 0.5;
+            }
+            .email-entry{
+                color: white ;
+                background: transparent;
+                border: 0px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+                font-weight: bold;
+                height: 25px;
+                width: 250px;
+                font-family: "Poppins", sans-serif;
+                
+            }
+            .password-entry{
+                color: white ;
+                background: transparent;
+                border: 0px;
+                margin-bottom: 10px;
+                font-weight: bold;
+                height: 25px;
+                width: 250px;
+                font-family: "Poppins", sans-serif;
+                
+            }
+            .login-title{
+                font-family: "Poppins", sans-serif;
+                color: white;  
+                padding-left: 60px;
+
+            }.link-to-sign-up{
+                font-family: "Poppins", sans-serif;
+                color: white;  
+                font-size: 13px;  
+                margin-left: 50px;
+            }
+            .link-signing-up{
+                font-family: "Poppins", sans-serif;
+                color: white;  
+                font-size: 13px;  
+                margin-left:35px ;
+                margin-bottom: 10px;
+            }
+            .Body-Para-info{
+                font-size: 13px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: light;
+                margin-left: 10px;
+            }
+            .find-out-more{
+                color: rgba(0, 0, 0, 0.8) ;
+                background: white;
+                border: 0px;
+                margin-top: 10px;
+                margin-left: 10px;
+                font-weight: bold;
+                height: 50px;
+                width: 300px;
+                border-radius: 12px;
+                font-family: "Poppins", sans-serif;
+                
+            }
+            .find-out-more:hover{
+                color: white;
+                background-color: rgba(0, 0, 0,0.8);
+                cursor: pointer;
+                border: 0px;
+            }   
+            .sign-in{
+                margin-top:10px ;
+                background-color: rgb(243, 164, 74);
+                color: black;
+                font-family:"Poppins", sans-serif ;
+                border-width: 1px ;
+                border-radius: 7px;
+                width: 200px;
+                height: 40px;
+                margin-left: 30px;
+            } 
+            .sign-in:active{
+                opacity: 0.5;
+            }
+            .sign-in:hover{
+                cursor: pointer;
+            }
+        </style>
+   </head>
+   <body>
+        <header class="intro">THE FOOD DONATION NETWORK </header><hr>
+        <a href="services.html"><button class="service_page_direct">Service Providers</button></a>
+        <a href="charities.html"><button class="charities_page_direct">Charities</button></a>
+        <h2 class="Body-Para-title">Thinking of Donating?</h2>
+        <h2 class="Body-Para-info">Sed tincidunt tincidunt justo vitae blandit. Vivamus porta nibh ac nulla maximus, eu elementum turpis ornare. Nunc consectetur suscipit<br> est eget imperdiet. Quisque accumsan condimentum accumsan. Maecenas sollicitudin arcu vel interdum vehicula. Sed varius urna quis<br> tempor congue. Praesent sed dui sed felis iaculis euismod nec in nisi. Aliquam placerat nibh nec velit sagittis venenatis id a felis. Fusce<br> finibus ullamcorper magna, nec consequat nisi efficitur vitae. Quisque molestie auctor tortor, ac sollicitudin purus tincidunt et. Aenean id <br>egestas nulla.</h2>
+        <a href="charities.html"><button class="find-out-more">Find out more ></button></a>
+        <div class="login">
+            <h2 class="login-title">Login here</h2>
+            <input class="email-entry" type="email" name="email" placeholder="Enter Email Here" required>
+            <input class="password-entry" type="password" name="password" placeholder="Enter Password Here" required><br>
+            <a href="login-user.html"><button class="submit" >Login</button></a>
+
+            <p class="link-to-sign-up">Don't have an account<br><a class="link-signing-up" href="#">Sign up here</a></p>
+            <a href="sign-in-couriers.html"><button class="sign-in" >Sign in for Couriers</button></a>
+            <a href="sign-in-charities.html"><button class="sign-in" >Sign in for Charities</button></a>
+        </div>
+    </body> 
+</html>
